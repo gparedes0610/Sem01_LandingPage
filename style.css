@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: palevioletred;
+}
+.header__titulos {
+  text-align: center;
+  color: white;
+}
+
+.nav {
+  background-color: bisque;
+  text-align: center;
+  height: 30px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  height: 800px;
+}
+
+.articulo {
+  background-color: pink;
+}
+
+.articulo__contenedor {
+  margin: 50px 50px;
+  background-color: greenyellow;
+  display: flex;
+  justify-content: space-between;
+}
+
+.articulo__informacion {
+  margin: 50px 50px;
+  background-color: greenyellow;
+}
+
+.footer {
+  background-color: burlywood;
+}
